@@ -25,7 +25,7 @@ mongoose
 
 mongoose
 .connect(
-  "mongodb+srv://jpachkoski:" + process.env.MONGO_ATLAS_PW + "@cluster0.tp0sv.azure.mongodb.net/node-angular?retryWrites=true&w=majority"
+  "mongodb+srv://jpachkoski:" + process.env.MONGO_ATLAS_PW + "@cluster0.tp0sv.azure.mongodb.net/node-angular"
 )
 .then(() => {
   console.log("Connected to database!");
